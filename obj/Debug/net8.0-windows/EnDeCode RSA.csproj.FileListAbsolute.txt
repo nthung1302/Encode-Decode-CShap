@@ -1,0 +1,21 @@
+D:\C_Shap\EnDeCode RSA\bin\Debug\net8.0-windows\EnDeCode RSA.exe
+D:\C_Shap\EnDeCode RSA\bin\Debug\net8.0-windows\EnDeCode RSA.deps.json
+D:\C_Shap\EnDeCode RSA\bin\Debug\net8.0-windows\EnDeCode RSA.runtimeconfig.json
+D:\C_Shap\EnDeCode RSA\bin\Debug\net8.0-windows\EnDeCode RSA.dll
+D:\C_Shap\EnDeCode RSA\bin\Debug\net8.0-windows\EnDeCode RSA.pdb
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\App.g.cs
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA_Content.g.cs
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA_MarkupCompile.cache
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA_MarkupCompile.lref
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\MainWindow.baml
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.g.resources
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.GeneratedMSBuildEditorConfig.editorconfig
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.AssemblyInfoInputs.cache
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.AssemblyInfo.cs
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.csproj.CoreCompileInputs.cache
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.dll
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\refint\EnDeCode RSA.dll
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.pdb
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\EnDeCode RSA.genruntimeconfig.cache
+D:\C_Shap\EnDeCode RSA\obj\Debug\net8.0-windows\ref\EnDeCode RSA.dll

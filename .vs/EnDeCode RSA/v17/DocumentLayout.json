@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C_Shap\\EnDeCode RSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70A4CC-4A7E-4E35-94DF-5742E31CE749}|EnDeCode RSA.csproj|d:\\c_shap\\endecode rsa\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3F70A4CC-4A7E-4E35-94DF-5742E31CE749}|EnDeCode RSA.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70A4CC-4A7E-4E35-94DF-5742E31CE749}|EnDeCode RSA.csproj|d:\\c_shap\\endecode rsa\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F70A4CC-4A7E-4E35-94DF-5742E31CE749}|EnDeCode RSA.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F70A4CC-4A7E-4E35-94DF-5742E31CE749}|EnDeCode RSA.csproj|d:\\c_shap\\endecode rsa\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3F70A4CC-4A7E-4E35-94DF-5742E31CE749}|EnDeCode RSA.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\C_Shap\\EnDeCode RSA\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\C_Shap\\EnDeCode RSA\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMjSURBVFhH5VbLTttAFL20DivaRHxJt20lVD6g5AMaEEII0Q3QIkqFqGhBBcqbkBDeNJWSBSvCD/AL/QRWbEsXJXEcZ3rvzDgZ22PXoZFYcOLDHV/bM3fOGQ\u002BGewVjTLbuDx0yulAoFHhlVGCTeI4/anhzzrm4zCDWGbsxTbP37ejoT95hq6ACbNv2saay5mWN1et1ViwW2dXVFTs6Pv6V3c09k10G4pGMLvDZILBDsIm2YN22MSqs24DFNEj3E7q7u6H3VW8iFjMuM9lsaBGhBXjRzGqda4CKi8efQk9PT8IwYpfpnUxgEaEF6MtAONcDbkA7eBFPurrg5YvniZhhXMpLPminks//YKnUGzg/P5eZaEgmk3B2dgbX19cyI2B0dsLE2Jh2LG3yez7P\u002BlMpnIXwlECrXQAfoanLINrUDUY8bn7fKMowMB4bUCgWYGJ8XDuW1gJVW/6aUc8czqjKLc7gEvF4AhIJSdlWuvNBW9Xp6SnrHxiAUosW6NDXl4SdTAbev5vQjqXFyckJf9fNqiVoVpusVlkFY8U0lYismKzsYoXdlivMsmpsfWMzUIOAt4D\u002ByIajH6kvUx28pUxI3tIEJpRc00I/tLLgLsYGBwfbZsFWehumJiejW3B4dMS3VyGxJMrK6ZFdJ30ZpSf5HQtW19YDJQjZiCQbFuAE1BXvDhJ0vzeH504fGmhlOTg4ZENDQ1AqtcOCPtjY3ILpD1PRLdjfP\u002BD/3RpSK3L7JffLrrJqWWx5ZSVQAr0FjogUHLqbCjAjDj\u002Bk9CEO6C3I7e2x4eFhuCiVZObueI0WrK1vwMzH6egW7OZyzEIL/FI7FJIHyX57W2Z/JMmCxaXlQA2CNyIXKCFJF8XB6QNe9\u002BZbfguy2V02MjICFxftsWBldRVmZ2aiW4CfUXwD0cqroyK5l2TBwtfFQAlCNqIIILk1knvRsgX4Dcfwk7ptFiwtf4O5T7PRLdhO76AFFspb5vKGSfwvkgVf5hdatID/uMIi8uzdEfa8tgA\u002BMgK/6/\u002BbhJbXwObWNj7jLDARaRrunOxYk2vksS/nfP7zXPQ18IAA8Bcyv5bYM78zewAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-09-13T17:42:26.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\C_Shap\\EnDeCode RSA\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\C_Shap\\EnDeCode RSA\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-13T03:20:37.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\C_Shap\\EnDeCode RSA\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\C_Shap\\EnDeCode RSA\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T03:20:14.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
