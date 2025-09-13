@@ -1,0 +1,96 @@
+﻿<Window x:Class="EnDeCode_RSA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnDeCode_RSA"
+        mc:Ignorable="d"
+        Title="Encode | Decode RSA" Height="800" Width="1200" Background="#FFE8F0FF" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Window.Resources>
+        <Style x:Key="CustomButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FFDEE9FD"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#FFBCCBF9"/>
+                                <Setter Property="BorderBrush" Value="#FFDD2525"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FFD6E0FF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Background="White" CornerRadius="10" Margin="10">
+            <Grid>
+                <Border  CornerRadius="10">
+                    <StackPanel Margin="10">
+
+                        <TextBlock Text="RSA Encode | Decode" FontSize="24" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0 20 0 20">
+                            <TextBlock.Foreground>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black"/>
+                                    <GradientStop Color="Red" Offset="1"/>
+                                </LinearGradientBrush>
+                            </TextBlock.Foreground>
+                        </TextBlock>
+
+                        <TextBlock Text="Số nguyên tố p:" FontWeight="SemiBold" FontFamily="Arial"  FontSize="18" Padding="0 5 5 5"/>
+                        <TextBox x:Name="TBoxP"   Height="auto" FontWeight="SemiBold" FontFamily="Arial" BorderThickness="0 0 0  1" FontSize="18" Padding="0 5 5 2" Margin="0 0 0 20" BorderBrush="Black"/>
+
+                        <TextBlock Text="Số nguyên tố q:" FontWeight="SemiBold" FontFamily="Arial"  FontSize="18" Padding="0 5 5 5"/>
+                        <TextBox x:Name="TBoxQ" Height="auto" FontWeight="SemiBold" FontFamily="Arial" BorderThickness="0 0 0  1" FontSize="18" Padding="0 5 5 2" Margin="0 0 0 20" BorderBrush="Black"/>
+
+                        <TextBlock Text="Giá trị e:" FontWeight="SemiBold" FontFamily="Arial"  FontSize="18" Padding="0 5 5 5"/>
+                        <TextBox x:Name="TBoxE" Height="auto" FontWeight="SemiBold" FontFamily="Arial" BorderThickness="0 0 0  1" FontSize="18" Padding="0 5 5 2" Margin="0 0 0 20" BorderBrush="Black"/>
+
+                        <Button Content="Create Key" Style="{StaticResource CustomButtonStyle}" Margin="0 10 0 10" Height="40" Click="CreateKey_Click"/>
+                        <Button Content="Encode" Style="{StaticResource CustomButtonStyle}" Margin="0 10 0 10" Height="40" Click="Encode_Click"/>
+                        <Button Content="Decode" Style="{StaticResource CustomButtonStyle}" Margin="0 10 0 10" Height="40" Click="Decode_Click"/>
+                        <Button Content="Sign Key" Style="{StaticResource CustomButtonStyle}" Margin="0 10 0 10" Height="40" Click="SignKey_Click"/>
+                        <Button Content="Veryfire Key" Style="{StaticResource CustomButtonStyle}" Margin="0 10 0 10" Height="40" Click="VeryfileKey_Click"/>
+                        <Button Content="Clear" Style="{StaticResource CustomButtonStyle}" Margin="0 10 0 10" Height="40" Click="Clear_Click"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+        
+        <Border Grid.Column="1" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Border Background="White" CornerRadius="10" Grid.Row="0" Margin="0 0 0 10" Padding="20" >
+                    <TextBlock x:Name="tbKetQua" FontSize="16" LineHeight="25" FontFamily="Arial" Background="#0000"/>
+                </Border>
+                <Border Background="White" CornerRadius="10" Grid.Row="1" Margin="0 10 0 0" Padding="10">
+                    <TextBlock x:Name="txtMessage" Text="Message" TextAlignment="Center" HorizontalAlignment="Center" Background="#0000" Foreground="Black" Padding="10" FontWeight="SemiBold" FontFamily="Arial" FontSize="13" VerticalAlignment="Center" Width="860"/>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
